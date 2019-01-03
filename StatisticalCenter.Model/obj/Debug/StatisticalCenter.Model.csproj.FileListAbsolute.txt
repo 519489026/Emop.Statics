@@ -1,0 +1,7 @@
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.Model\bin\Debug\StatisticalCenter.Model.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.Model\bin\Debug\StatisticalCenter.Model.pdb
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.Model\bin\Debug\StatisticalCenter.Common.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.Model\bin\Debug\StatisticalCenter.Common.pdb
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.Model\obj\Debug\StatisticalCenter.Model.csprojResolveAssemblyReference.cache
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.Model\obj\Debug\StatisticalCenter.Model.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.Model\obj\Debug\StatisticalCenter.Model.pdb

@@ -1,0 +1,10 @@
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Release\StatisticalCenter.DataAccess.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Release\StatisticalCenter.DataAccess.pdb
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Release\StatisticalCenter.Common.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Release\StatisticalCenter.Model.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Release\StatisticalCenter.Common.pdb
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Release\StatisticalCenter.Model.pdb
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\obj\Release\StatisticalCenter.DataAccess.csprojResolveAssemblyReference.cache
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\obj\Release\StatisticalCenter.DataAccess.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\obj\Release\StatisticalCenter.DataAccess.pdb
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Release\Newtonsoft.Json.dll

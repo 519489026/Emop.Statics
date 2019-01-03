@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>红领巾2016年第6期</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta charset="utf-8" />
+    <script src="jquery-2.1.4.min.js"></script>
+    <script>window.onload = function () { var hm = document.createElement("script"); hm.src = "http://localhost:9710/Scripts/DoStatistical.js?q=VgcAAADf3A==&b=testButton"; hm.id = "tj"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); }</script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?97e9412bc84f11d4294196eea69b9817";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        var browser = {
+            versions: function () {
+                var u = navigator.userAgent;
+                return {
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端
+                    weixin: u.indexOf('MicroMessenger') > -1
+                };
+            }()
+        };
+        var app_download_path = {
+            ios: "https://itunes.apple.com/cn/app/4d-dian-du-shu-you-sheng-er/id842495919?mt=8",
+            android: "http://file.mxrcorp.cn/mxrapps/bookstore/bookstore_hlj_2016_6.apk"
+        };
+        $(function () {
+            SetPromptBox(browser.versions);
+            window.onresize = SetPageUI;
+            SetPageUI();
+        });
+        function SetPageUI() {
+            var base_data = {};
+            base_data.height = $(window).height();
+            base_data.width = $(window).width();
+            base_data.rate = base_data.width / 640;
+
+            var size = GetSize(base_data.rate);
+
+            $("#part1").css({
+                width: size.fact_size_px(105),
+                marginTop: size.fact_size_px(36)
+            });
+
+            $("#part2").css({
+                marginTop: size.fact_size_px(15),
+                fontSize: size.fact_size_px(24)
+            });
+
+            $("#p2_sup").css({
+                fontSize: size.fact_size_px(15)
+            });
+
+            $("#part3").css({
+                width: size.fact_size_px(144),
+                marginTop: size.fact_size_px(25)
+            });
+
+            $("#part4").css({
+                width: size.fact_size_px(472),
+                marginTop: size.fact_size_px(30)
+            });
+
+            $("#part5").css({
+                letterSpacing: size.fact_size_px(10),
+                fontSize: size.fact_size_px(28),
+                marginTop: size.fact_size_px(30)
+            });
+
+            $("#part6").css({
+                width: size.fact_size_px(208),
+                marginTop: size.fact_size_px(48)
+            });
+
+            $("#part7").css({
+                fontSize: size.fact_size_px(20),
+                marginTop: size.fact_size_px(46)
+            });
+        };
+        function GetSize(rate) {
+            this.rate = rate;
+            this.fact_size_px = function (size) {
+                return this.rate * size + "px";
+            }
+            return this;
+        };
+        function SetPromptBox(versions) {
+            var prompt_box = document.createElement("div");
+            prompt_box.id = "prompt_box";
+            prompt_box.style.display = "none";
+            prompt_box.style.background = "url(http://file.mxrcorp.cn/mxrthemes/images/bg1.png) repeat";
+            prompt_box.style.zIndex = "10";
+            prompt_box.style.position = "fixed";
+            prompt_box.style.left = "0";
+            prompt_box.style.top = "0";
+            prompt_box.style.textAlign = "center";
+            prompt_box.style.width = "100%";
+
+            var img_content = document.createElement("img");
+            if (versions.ios) {
+                img_content.src = "http://file.mxrcorp.cn/mxrthemes/images/i_float.png";
+            } else {
+                img_content.src = "http://file.mxrcorp.cn/mxrthemes/images/a_float.png";
+            }
+            img_content.style.width = "100%";
+            img_content.style.zIndex = "15";
+
+            var img_know = document.createElement("img");
+            img_know.src = "http://file.mxrcorp.cn/mxrthemes/images/btn_know.png";
+            img_know.style.width = "30%";
+            img_know.style.zIndex = "15";
+            img_know.style.margin = "0 auto 20px";
+            img_know.onclick = function () {
+                $("#prompt_box").hide();
+            };
+
+            document.body.appendChild(prompt_box);
+            document.getElementById("prompt_box").appendChild(img_content);
+            document.getElementById("prompt_box").appendChild(img_know);
+        };
+        function DownLoadApp() {
+            if (browser.versions.weixin)
+                document.getElementById("prompt_box").style.display = "block";
+            else
+                if (browser.versions.ios)
+                    window.location.href = app_download_path.ios;
+                else if (browser.versions.android)
+                    window.location.href = app_download_path.android;
+        };
+    </script>
+</head>
+<body style="font-family: 'Helvetica'; margin: 0; border: none;">
+    <div id="mainPage" style="margin:0 auto;text-align:center;">
+        <img id="part1" src="Icon.png" style="display:block;margin:0 auto;" />
+        <div id="part2">
+            4D书城<sup id="p2_sup">TM</sup>
+        </div>
+        <img id="part3" src="button-01.png" style="display:block;margin:0 auto;" onclick="DownLoadApp();" />
+        <img id="part4" src="icon-01.png" style="display:block;margin:0 auto;" />
+        <div id="part5">
+            4D书城，一起趣看书!
+        </div>
+        <img id="part6" src="qrcode.png" style="display:block;margin:0 auto;" />
+        <div id="part7">
+            版权所有
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            梦想人科技
+        </div>
+    </div>
+</body>
+</html>

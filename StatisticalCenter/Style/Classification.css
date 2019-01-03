@@ -1,0 +1,118 @@
+﻿body {
+}
+
+body, select, input {
+    font-family: 'Microsoft YaHei';
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+}
+
+.Tab_Button {
+    text-align: center;
+    background-color: #bbc3cd;
+    color: white;
+    border: 0px solid rgb(121,121,121);
+    height: 35px;
+    margin-left: -3px;
+    width: 90px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.Tab_Button_Press {
+    text-align: center;
+    background-color: #54b9cd;
+    color: white;
+    border: 0px solid rgb(121,121,121);
+    height: 35px;
+    margin-left: -3px;
+    width: 90px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.div_class_table_list {
+    max-height: 497px;
+    overflow: auto;
+    width: 820px;
+}
+
+.replyButton {
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #01AFF6;
+    border: none;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    width: 90px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.div_age {
+    height: 35px;
+    line-height: 35px;
+}
+
+.div_toggle div {
+}
+
+.div_bottom {
+    height: 1px;
+    border-bottom: 1px solid #bbc3cd;
+}
+
+.textLevel {
+    width: 60px;
+}
+
+.textName {
+    width: 200px;
+}
+
+.tabDiv {
+    width: 820px;
+    height: 460px;
+    display: none;
+}
+
+.tdWidth_Title_F {
+    width: 100px;
+    text-align: center;
+}
+
+.tdWidth_Title_S {
+    width: 620px;
+}
+
+.tdWidth_Title_T {
+    width: 100px;
+}
+
+.tdWidth_Content_F {
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+
+.tdWidth_Content_S {
+    width: 620px;
+    float: left;
+}
+
+.tdWidth_Content_T {
+    width: 80px;
+    float: left;
+}
+
+.divAddGroup {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #bbc3cd;
+}

@@ -1,0 +1,10 @@
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Debug\StatisticalCenter.DataAccess.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Debug\StatisticalCenter.DataAccess.pdb
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Debug\Newtonsoft.Json.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Debug\StatisticalCenter.Common.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Debug\StatisticalCenter.Model.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Debug\StatisticalCenter.Common.pdb
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\bin\Debug\StatisticalCenter.Model.pdb
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\obj\Debug\StatisticalCenter.DataAccess.csprojResolveAssemblyReference.cache
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\obj\Debug\StatisticalCenter.DataAccess.dll
+E:\MxrServerProject\MXR\MXR.EOMP.Center\src\StatisticalCenter.DataAccess\obj\Debug\StatisticalCenter.DataAccess.pdb

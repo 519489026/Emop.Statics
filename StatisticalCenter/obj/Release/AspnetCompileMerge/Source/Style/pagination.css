@@ -1,0 +1,62 @@
+.pagination
+{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    text-align: center;
+    height:21px;
+    line-height:21px;
+}
+
+    .pagination a
+    {
+        text-decoration: none;
+        border: solid 1px #999;
+        color: rgb(0,153,255);
+        width:26px;
+    }
+
+    .pagination a, .pagination span
+    {
+        display: block;
+        float: left;
+        padding: 0.3em 0.5em;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .pagination .current
+    {
+        background: #54b9cd;
+        color: #fff;
+        border: solid 1px #54b9cd;
+        width:26px;
+    }
+
+        .pagination .current.prev, .pagination .current.next
+        {
+            color: #e5e3e3;
+            border-color: #e5e3e3;
+            background: #fff;
+            font-family: "微软雅黑";
+            width:58px;
+        }
+         .pagination .prev, .pagination .next
+        {
+            width:58px;
+        }
+        .pagination .current.prev0, .pagination .current.next0
+        {
+            color: #e5e3e3;
+            border-color: #e5e3e3;
+            background: #fff;
+            font-family: "微软雅黑";
+            width:36px;
+        }
+        .pagination .prev0, .pagination .next0
+        {
+            width:36px;
+        }
+/*#data table tbody tr td
+{
+    border-bottom: 1px solid #F2F2F2;
+}*/
